@@ -134,6 +134,7 @@ const FAQ = () => {
       />
       <AffiliateWidget />
 
+      <section className="container mx-auto max-w-4xl px-4 py-10 mt-8">
       <FAQSection
         items={[
           { question: "How much does it cost to rent a car on Kos in 2026?", answer: "Kos rental prices in 2026 start from about €9-12 per day for a Fiat Panda, Hyundai i10, Nissan Micra, Toyota Aygo, Citroen C1, or Opel Corsa in the low season, while a Renault Clio, Citroen C3, Kia Picanto, or Seat León can reach €35-45 per day in peak August. A Dacia Duster, Kia Stonic, or VW Taigo for beach routes and family trips often costs €30-50 in April-May and €65-85 in July-August, based on live listings from DiscoverCars and local brokers such as Autoway Kos, Costas Car Rental, and Geo Rent A Car. Automatic cars are still a minority on Kos, so booking at least 4 weeks ahead is sensible if you need one for an arrival at KGS or a late-night pick-up from the arrivals hall. Kos Town, Mastichari, Kardamena, Tigaki, Marmari, Kefalos, Antimachia, Lambi, and Psalidi all show stronger peak pricing in summer because the island’s fleet is limited and demand rises quickly. Sixt, Hertz, Avis, Europcar, Enterprise, Thrifty, Firefly, Goldcar, and Alma often list higher rates for automatics and larger SUVs than local firms such as Trust Kos, Rentacar-Kos, Eco Rentals, Ilias Rentals, Exer, and IdealRentals." },
@@ -148,10 +149,7 @@ const FAQ = () => {
           { question: "What happens if I damage the car on a gravel road to a beach?", answer: "You are usually responsible for the full repair cost if you damage a rental car on an unpaved road in Kos, because most contracts void CDW, SCDW, and FDW on non-asphalt surfaces. Autoway Kos states that coverage applies only on asphalt roads, and many local agencies including Kosmos, Eco Rentals, and Rentacar-Kos use the same rule to exclude undercarriage, tyre, and suspension damage. If the contract includes zero excess for paved-road incidents, that promise does not normally survive gravel-road use, off-road parking, or beach-track driving. Kos drivers heading to remote shores such as Limnionas, Agios Stefanos, Exotic Beach, Lagada Beach, or the rough track above Cavo Paradiso should choose a vehicle that matches the route and keep the signed terms in the glovebox. The safest way to compare coverage is to check the exact insurance wording before leaving Kos International Airport, the Kos Town office, or the shuttle bus stop." }
         ]}
       />
-
-      <div className="flex justify-center pb-12">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
-      </div>
+      </section>
     </Layout>
   );
 };

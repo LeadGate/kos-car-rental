@@ -65,9 +65,9 @@ const FerryGuide = () => {
 
       <HeroSection
         title="Ferry-Port Rentals: Mastichari, Bodrum & Kalymnos"
-        subtitle={<><p className="text-white drop-shadow-md"></p></>}
-        image="/6.webp"
-        imageAlt="Car rental in Kos"
+        subtitle={<><p className="text-white drop-shadow-md">Where to pick up in Mastichari for the Kalymnos ferry, why Greek rental cars cannot cross to Bodrum, and how to handle an early-morning handover without the €25 out-of-hours surcharge.</p></>}
+        image="/13.webp"
+        imageAlt="Mastichari fishing harbor at dawn with traditional caiques and Kalymnos visible across the strait"
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
@@ -85,11 +85,21 @@ const FerryGuide = () => {
           <CompanyCard><p><strong>Eco Rentals</strong> is a useful benchmark here because its Mastichari policy is tied to rental length, while <strong>Kosmos</strong> has a long-running village base and typically offers direct port-area service from Mastichari rather than a city-office handoff. That matters for ferry passengers because <strong>Mastichari</strong>, <strong>Kalymnos</strong>, and <strong>Pserimos</strong> itineraries are often booked on a tight schedule, and a company with a same-area office can save 20–30 minutes compared with a transfer back to <strong>Kos Town</strong>.</p></CompanyCard>
           <InfoBox><p>💡 <strong>Tip:</strong> Ask for the exact drop-off address in writing, because a named village office in <strong>Mastichari</strong> is not the same as a general “port service” promise.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> A “free drop-off” offer can still exclude airport collections, late returns, or one-way use on the same booking, so confirm the fee line in the voucher before accepting the keys.</p></WarningBox>
+      </Section>
+
+      <ImageDivider image="/19.webp" alt="Dodekanisos Seaways catamaran approaching Mastichari port Kos at golden hour, Kalymnos visible across the turquoise Aegean" />
+
+      <Section icon={<Car className="w-6 h-6" />}>
           <h3 className="text-xl font-bold mt-6 mb-3">Bodrum Ferry Rules: Why Rental Cars Cannot Leave Kos</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">A Greek rental car cannot legally travel on the <strong>Kos–Bodrum</strong> ferry, and the safest rule is to treat that crossing as <strong>foot passenger only</strong> with a separate Turkish rental on arrival. The reason is contractual and insurance-based: when a vehicle enters a ferry, the standard <strong>Third-Party Liability</strong>, <strong>CDW</strong>, <strong>SCDW</strong>, or <strong>FDW</strong> cover can be suspended, and the renter may face the full <strong>excess / deductible / franchise</strong> if anything happens during loading, transit, or unloading.</p>
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Autoway Kos</strong>, <strong>Trust Kos</strong>, and <strong>Rentacar-Kos</strong> are examples of local suppliers that state no-ferry clauses in their rental terms, while global brokers such as <strong>DiscoverCars</strong> and <strong>Booking</strong> usually display the same restriction in the supplier conditions. In practice, <strong>full coverage</strong> or <strong>zero excess</strong> does not override a ferry ban, because sea transit is commonly excluded even when a policy has a low or waived deductible.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Driving a Kos rental car onto the Bodrum ferry can void insurance instantly, and the penalty may include a contractual breach charge plus recovery costs if the vehicle is stopped by customs.</p></WarningBox>
           <p className="text-gray-700 mb-4 leading-relaxed">If you need a workable port handover, <strong>Eco Rentals</strong> and some other local agencies offer meet-and-greet service near the <strong>Kos Port / Mandraki</strong> passenger area, which is designed for foot passengers crossing to Turkey. For route planning, see our <strong>Kos port pickup rules</strong> and our <a href="/driving-in-kos" className="text-primary underline hover:text-accent">driving rules for sea transit in Kos</a>.</p>
+      </Section>
+
+      <ImageDivider image="/20.webp" alt="Kos Town Mandraki cruise port with a white ferry moored alongside, Ottoman minaret and Knights castle in background" />
+
+      <Section icon={<Car className="w-6 h-6" />}>
           <h3 className="text-xl font-bold mt-6 mb-3">Domestic Ferries to Kalymnos, Rhodes, and Other Islands</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Domestic ferries from <strong>Mastichari</strong> and <strong>Kos Town</strong> to <strong>Kalymnos</strong>, <strong>Rhodes</strong>, and other islands usually prohibit rental cars unless the supplier has written approval, and that restriction applies to both local firms and larger names such as <strong>Sixt</strong>, <strong>Hertz</strong>, and <strong>Europcar</strong>. The main operational issue is not distance but liability, because many contracts suspend cover the moment the car is loaded on the vessel, which leaves the renter exposed if damage occurs at sea or during ramp loading.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">For multi-island trips, the cleanest solution is to return the car on <strong>Kos</strong>, travel onward as a foot passenger, and pick up another vehicle at the destination port; that pattern is common for <strong>Kalymnos</strong>, <strong>Rhodes</strong>, and <strong>Crete</strong> itineraries. A city-to-city rental pair is usually easier to approve than a ferry crossing, especially if the second booking is with a local operator near the arrival port.</p>

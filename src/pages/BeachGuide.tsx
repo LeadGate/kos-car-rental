@@ -144,15 +144,6 @@ const BeachGuide = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> If the voucher says “shuttle bus” or “off-airport depot,” add the transfer time before planning a same-day beach loop to Kefalos or Agios Theologos.</p></WarningBox>
       </Section>
 
-      <div className="flex justify-center py-6">
-        <a href="/" className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-primary-foreground font-semibold shadow-md hover:opacity-90 transition">
-          Compare Car Rental Deals
-        </a>
-      </div>
-
-      <div className="flex justify-center pb-12">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
-      </div>
     </Layout>
   );
 };

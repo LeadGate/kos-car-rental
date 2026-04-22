@@ -36,7 +36,7 @@ const Index = () => {
 
       <HeroSection
         title="Renting a Car in Kos Without the Hidden-Fee Trap"
-        subtitle={<><p className="text-white drop-shadow-md"></p></>}
+        subtitle={<><p className="text-white drop-shadow-md">Compare Kos car rental from €9/day in February to €45 in August. Skip the 60-minute airport cancellation trap, the zero-excess contract gap, and the €150 off-road recovery fee — we name the operators and cite the Greek Gazette.</p></>}
         image="/1.webp"
         imageAlt="Car rental in Kos"
         ctaText="Compare Car Rental Deals"
