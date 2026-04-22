@@ -150,6 +150,10 @@ const FAQ = () => {
         ]}
       />
       </section>
+
+      <div className="flex justify-center pb-12 pt-8">
+        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+      </div>
     </Layout>
   );
 };

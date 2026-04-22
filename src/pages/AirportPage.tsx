@@ -236,6 +236,9 @@ const AirportPage = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> A comparison site price can change at the counter if the voucher does not match the exact driver name, flight number, and insurance package, so always verify the final contract before signing.</p></WarningBox>
       </Section>
 
+      <div className="flex justify-center pb-12">
+        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+      </div>
     </Layout>
   );
 };
