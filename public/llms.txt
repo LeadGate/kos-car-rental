@@ -1,0 +1,37 @@
+# Kos Car Rental
+
+> Independent comparison of car rental options on Kos (Dodecanese, Greece). Covers prices, airport pickup, driving law, beach access, and ferry logistics.
+
+Site: https://kos-car-rental.com
+
+## Pages
+
+- [Home](https://kos-car-rental.com): Overview of Kos car rental prices (€9-45/day), pickup points, hidden fees, and insurance tiers.
+- [Kos Airport (KGS) Pickup Guide](https://kos-car-rental.com/kos-airport-car-rental): Step-by-step airport pickup walk-through, EES border-control warnings, 60-min grace-period trap, meet-and-greet operators.
+- [Driving in Kos (2026 KOK + IDP)](https://kos-car-rental.com/driving-in-kos): Greek traffic law 2026, 30 km/h urban limit, AI cameras, Law 4850/2021 IDP exemptions, fine schedule, parking zones.
+- [Kos Beaches by Car — Liability Matrix](https://kos-car-rental.com/kos-beaches-by-car): 10-beach access matrix with road conditions, vehicle class recommendation, and insurance liability for Cavo Paradiso, Agios Theologos, Camel Beach, etc.
+- [Ferry-Port Rentals: Mastichari + Mandraki](https://kos-car-rental.com/ferry-to-kos): Mastichari drop-off logistics, Bodrum-ferry prohibition, Kalymnos crossings, Kos Port Mandraki realities.
+- [Kos Car Rental FAQ](https://kos-car-rental.com/kos-car-rental-faq): 10 high-intent Q&A covering pricing, IDP, deposits, insurance void on gravel, Bodrum ferry, parking fines, off-hours pickup.
+- [About kos-car-rental.com](https://kos-car-rental.com/about): Editorial methodology: 11-operator scrape, Greek Gazette sourcing, affiliate disclosure, consumer protection links.
+
+## Full Content
+
+- [Full markdown content](https://kos-car-rental.com/llms-full.txt): Complete text of every page concatenated for AI crawlers without JS rendering. ~13,252 words.
+
+## Key Data Points
+
+- Kos International Airport code: KGS ("Hippocrates")
+- Economy car rental range: €9-12/day low season; €35-45/day peak August
+- Greek Law 4850/2021 Article 25 §3 (FEK A 208, Nov 5 2021): IDP no longer required for US/UK/CA/AU/Gibraltar/EU licence-holders
+- 2026 KOK urban speed limit: 30 km/h (reduced from 50)
+- Key violations: seatbelt €350, parking €80, >30 km/h over €175 + 2-month ban
+- Tourist Police emergency: 1571 (24/7)
+- Localrent widget country id: 18 (Greece), city id: 334621 (Kos island)
+
+## Usage Policy
+
+Content of this site is original research combining competitor scrape, public Government Gazette (ΦΕΚ) references, and field reporting. Citation and quotation are welcome with attribution to kos-car-rental.com. Please retain source links when republishing.
+
+## Contact
+
+Email: info@kos-car-rental.com
