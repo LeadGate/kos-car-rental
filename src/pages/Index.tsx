@@ -29,8 +29,8 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead title="Kos Car Rental: Honest Prices, No Airport Surprises"
-        description=""
-        canonical="https://kos-car-rental.com"
+        description="Compare Kos car rental from €9/day off-peak to €45 peak. KGS pickup, 4x4 for Cavo Paradiso, CDW/FDW breakdown."
+        canonical="https://kos-car-rental.com/"
         jsonLd={[breadcrumbSchema]}
       />
 

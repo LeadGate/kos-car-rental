@@ -106,8 +106,6 @@ def main():
         html = upsert_canonical(html, canonical)
 
         # OG + Twitter
-        html = upsert_meta(html, "meta", "property=\"og:title\"", "", "")  # noop placeholder
-        # Use simpler upsert
         for tag_attr, content in [
             (('meta', 'property', 'og:title'), title),
             (('meta', 'property', 'og:description'), desc),

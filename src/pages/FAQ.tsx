@@ -125,10 +125,10 @@ const FAQ = () => {
       <Breadcrumbs items={[{ label: "FAQ" }]} />
 
       <HeroSection
-        title="Your Kos Car Rental Questions, Answered Straight"
-        subtitle={<><p className="text-white drop-shadow-md"></p></>}
-        image="/7.webp"
-        imageAlt="Car rental in Kos"
+        title="Ten Questions Every Renter Asks Before Landing at KGS"
+        subtitle={<><p className="text-white drop-shadow-md">Straight answers on pricing, IDP rules, deposits, insurance on gravel, the Bodrum ferry, parking fines, and after-hours pickup.</p></>}
+        image="/16.webp"
+        imageAlt="Rental car keys and contract on a desk with a view of a Greek fishing village"
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
