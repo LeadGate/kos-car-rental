@@ -21,10 +21,10 @@ const About = () => {
 
       <Breadcrumbs items={[{ label: "About" }]} />
 
-      <Section icon={<Info className="w-6 h-6" />
+      <Section icon={<Info className="w-6 h-6" />}>
         <p className="text-gray-700 mb-4 leading-relaxed">
           <strong>kos-car-rental.com is an independent car rental booking guide</strong> for Kos. <strong>kos-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
-        </p>}>
+        </p>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">Who We Are and How We Research Kos Rentals</h1>
 
         <h2 className="text-2xl font-bold mt-8 mb-3">Who We Are</h2>
