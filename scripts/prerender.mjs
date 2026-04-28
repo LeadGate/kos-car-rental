@@ -21,6 +21,17 @@ if (!origin) {
 const fullTitle = (indexHtml.match(/<title>([^<]+)<\/title>/) || [])[1] || '';
 // Brand = part before first em-dash / en-dash / pipe / hyphen separator
 const brand = fullTitle.split(/\s+[—–|-]\s+/)[0].trim() || fullTitle;
+const origDesc = (indexHtml.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
+
+function buildDesc(slugTitle) {
+  const prefix = `${slugTitle} — ${brand}. `;
+  const budget = Math.max(40, 158 - prefix.length);
+  return (prefix + origDesc).slice(0, prefix.length + budget).replace(/\s+\S*$/, '').trim();
+}
+
+function escAttr(s) {
+  return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
 
 // Extract <loc> URLs from sitemap
 const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
@@ -50,7 +61,8 @@ function replaceOrInsert(html, regex, insertValue, headInsert) {
   return html.replace(/<\/head>/, `${headInsert}\n  </head>`);
 }
 
-function patchHead(html, { slug, canonical, title }) {
+function patchHead(html, { slug, canonical, title, description }) {
+  const descAttr = escAttr(description);
   // Canonical — replace or insert
   html = replaceOrInsert(
     html,
@@ -65,6 +77,13 @@ function patchHead(html, { slug, canonical, title }) {
     `<title>${title}</title>`,
     `    <title>${title}</title>`,
   );
+  // meta description — replace or insert (per-route)
+  html = replaceOrInsert(
+    html,
+    /<meta name="description" content="[^"]*"\s*\/?>/,
+    `<meta name="description" content="${descAttr}" />`,
+    `    <meta name="description" content="${descAttr}" />`,
+  );
   // og:url — replace or insert
   html = replaceOrInsert(
     html,
@@ -78,6 +97,13 @@ function patchHead(html, { slug, canonical, title }) {
     /<meta property="og:title" content="[^"]*"\s*\/?>/,
     `<meta property="og:title" content="${title}" />`,
     `    <meta property="og:title" content="${title}" />`,
+  );
+  // og:description — replace or insert (per-route)
+  html = replaceOrInsert(
+    html,
+    /<meta property="og:description" content="[^"]*"\s*\/?>/,
+    `<meta property="og:description" content="${descAttr}" />`,
+    `    <meta property="og:description" content="${descAttr}" />`,
   );
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
@@ -107,8 +133,10 @@ for (const loc of locs) {
   const outDir = path.join(DIST, slug.replace(/^\//, '').replace(/\/$/, ''));
   fs.mkdirSync(outDir, { recursive: true });
 
-  const title = `${slugToTitle(slug)} | ${brand}`;
-  const patched = patchHead(indexHtml, { slug, canonical: loc, title });
+  const slugTitle = slugToTitle(slug);
+  const title = `${slugTitle} | ${brand}`;
+  const description = buildDesc(slugTitle);
+  const patched = patchHead(indexHtml, { slug, canonical: loc, title, description });
   fs.writeFileSync(path.join(outDir, 'index.html'), patched);
   count += 1;
 }
