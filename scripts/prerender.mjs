@@ -21,7 +21,8 @@ if (!origin) {
 const fullTitle = (indexHtml.match(/<title>([^<]+)<\/title>/) || [])[1] || '';
 // Brand = part before first em-dash / en-dash / pipe / hyphen separator
 const brand = fullTitle.split(/\s+[—–|-]\s+/)[0].trim() || fullTitle;
-const origDesc = (indexHtml.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
+const origDescRaw = (indexHtml.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
+const origDesc = origDescRaw.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 
 function buildDesc(slugTitle) {
   const prefix = `${slugTitle} — ${brand}. `;
