@@ -61,8 +61,8 @@ const Contact = () => {
           </div>
 
           <div className="rounded-lg bg-muted p-4 text-sm text-muted-foreground space-y-2">
-            <p><strong className="text-foreground">Please note:</strong> We are an independent information website, not a car rental company. We cannot make bookings or modify existing reservations. For booking questions, please try the search widget above or read our <a href="/kos-car-rental-faq" className="text-primary underline hover:text-accent">Kos car rental FAQ</a>.</p>
-            <p>For on-the-ground emergencies with a Kos operator, the Hellenic <strong>Tourist Police</strong> are reachable 24/7 at <strong>1571</strong>. For post-trip financial disputes, the Dodecanese consumer authority INKA12 accepts complaints at <a href="https://inka12.gr/" target="_blank" rel="noopener" className="text-primary underline hover:text-accent">inka12.gr</a>. Thinking of driving to Bodrum? Read our <a href="/ferry-to-kos" className="text-primary underline hover:text-accent">Kos ferry-port rules</a> first — Greek rental contracts forbid the crossing.</p>
+            <p><strong className="text-foreground">Please note:</strong> We are an independent information website, not a car rental company. We cannot make bookings or modify existing reservations. For booking questions, please try the search widget above or read our <a href="/kos-car-rental-faq/" className="text-primary underline hover:text-accent">Kos car rental FAQ</a>.</p>
+            <p>For on-the-ground emergencies with a Kos operator, the Hellenic <strong>Tourist Police</strong> are reachable 24/7 at <strong>1571</strong>. For post-trip financial disputes, the Dodecanese consumer authority INKA12 accepts complaints at <a href="https://inka12.gr/" target="_blank" rel="noopener" className="text-primary underline hover:text-accent">inka12.gr</a>. Thinking of driving to Bodrum? Read our <a href="/ferry-to-kos/" className="text-primary underline hover:text-accent">Kos ferry-port rules</a> first — Greek rental contracts forbid the crossing.</p>
           </div>
 
           {submitted ? (

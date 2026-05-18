@@ -52,7 +52,7 @@ const About = () => {
           ]}
         />
         <p className="text-gray-700 mb-4 leading-relaxed mt-4">
-          Cross-navigation: our <a href="/driving-in-kos" className="text-primary underline hover:text-accent">driving rules guide</a> is the single source for fine amounts and IDP rules; the <a href="/kos-car-rental-faq" className="text-primary underline hover:text-accent">Kos rental FAQ</a> answers the ten most-asked pre-booking questions.
+          Cross-navigation: our <a href="/driving-in-kos/" className="text-primary underline hover:text-accent">driving rules guide</a> is the single source for fine amounts and IDP rules; the <a href="/kos-car-rental-faq/" className="text-primary underline hover:text-accent">Kos rental FAQ</a> answers the ten most-asked pre-booking questions.
         </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-3">Affiliate Disclosure</h2>
