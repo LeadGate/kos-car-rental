@@ -3,13 +3,13 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "Airport", path: "/kos-airport-car-rental" },
-  { label: "Driving Tips", path: "/driving-in-kos" },
-  { label: "Beaches", path: "/kos-beaches-by-car" },
-  { label: "Ferry", path: "/ferry-to-kos" },
-  { label: "FAQ", path: "/kos-car-rental-faq" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
+  { label: "Airport", path: "/kos-airport-car-rental/" },
+  { label: "Driving Tips", path: "/driving-in-kos/" },
+  { label: "Beaches", path: "/kos-beaches-by-car/" },
+  { label: "Ferry", path: "/ferry-to-kos/" },
+  { label: "FAQ", path: "/kos-car-rental-faq/" },
+  { label: "About", path: "/about/" },
+  { label: "Contact", path: "/contact/" },
 ];
 
 const Header = () => {

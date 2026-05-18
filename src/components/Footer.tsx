@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 const footerLinks = [
-  { label: "Airport", path: "/kos-airport-car-rental" },
-  { label: "Driving Tips", path: "/driving-in-kos" },
-  { label: "Beaches", path: "/kos-beaches-by-car" },
-  { label: "Ferry", path: "/ferry-to-kos" },
-  { label: "FAQ", path: "/kos-car-rental-faq" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-  { label: "Privacy Policy", path: "/privacy" },
+  { label: "Airport", path: "/kos-airport-car-rental/" },
+  { label: "Driving Tips", path: "/driving-in-kos/" },
+  { label: "Beaches", path: "/kos-beaches-by-car/" },
+  { label: "Ferry", path: "/ferry-to-kos/" },
+  { label: "FAQ", path: "/kos-car-rental-faq/" },
+  { label: "About", path: "/about/" },
+  { label: "Contact", path: "/contact/" },
+  { label: "Privacy Policy", path: "/privacy/" },
 ];
 
 const outboundLinks = [
