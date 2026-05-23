@@ -19,9 +19,6 @@ const outboundLinks = [
 
 const Footer = () => (
   <footer className="border-t border-border bg-secondary py-12">
-      <p className="text-xs opacity-60 leading-relaxed mb-4 px-4 max-w-4xl mx-auto">
-        kos-car-rental.com is an independent car rental guide. We may earn a commission when you book through partner links or the booking widget. Final prices, availability, deposits, insurance terms and supplier conditions are provided by the booking partner or rental supplier.
-      </p>
     <div className="container">
       <div className="grid gap-8 md:grid-cols-4">
         <div>
@@ -67,7 +64,7 @@ const Footer = () => (
         <p className="text-xs opacity-70">
           <strong>Affiliate disclosure:</strong> This site contains affiliate links to car rental partners. We may earn a commission when you book through these links at no extra cost to you. Partner relationships do not dictate which operators we recommend or warn against.
         </p>
-        <p className="text-xs opacity-70">Last updated: April 2026</p>
+        <p className="text-xs opacity-70">Last updated: May 2026</p>
         <p>&copy; {new Date().getFullYear()} kos-car-rental.com</p>
       </div>
     </div>
