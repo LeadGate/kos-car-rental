@@ -102,7 +102,8 @@ def main():
 
         html = upsert_title(html, title)
         html = upsert_description(html, desc)
-        canonical = ORIGIN if slug == "/" else f"{ORIGIN}{slug}"
+        # Trailing slash required — site serves /route/ as 200 and 308's /route → /route/
+        canonical = ORIGIN + "/" if slug == "/" else f"{ORIGIN}{slug.rstrip('/')}/"
         html = upsert_canonical(html, canonical)
 
         # OG + Twitter
