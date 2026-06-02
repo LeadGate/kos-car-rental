@@ -11,6 +11,7 @@ Site: https://kos-car-rental.com
 - [Driving in Kos (2026 KOK + IDP)](https://kos-car-rental.com/driving-in-kos): Greek traffic law 2026, 30 km/h urban limit, AI cameras, Law 4850/2021 IDP exemptions, fine schedule, parking zones.
 - [Kos Beaches by Car — Liability Matrix](https://kos-car-rental.com/kos-beaches-by-car): 10-beach access matrix with road conditions, vehicle class recommendation, and insurance liability for Cavo Paradiso, Agios Theologos, Camel Beach, etc.
 - [Ferry-Port Rentals: Mastichari + Mandraki](https://kos-car-rental.com/ferry-to-kos): Mastichari drop-off logistics, Bodrum-ferry prohibition, Kalymnos crossings, Kos Port Mandraki realities.
+- [Day Trips & Island Hopping from Kos by Car](https://kos-car-rental.com/island-hopping-from-kos): Which Kos day trips suit a hire car (paved drives to the Asklepion, Zia, Antimachia Castle, Paleo Pyli, Kefalos) versus a ferry (same-day Kalymnos, Nisyros volcano, Bodrum); insurance-void gravel tracks; why rental insurance is void at sea and rentals are banned across the Turkey border.
 - [Kos Car Rental FAQ](https://kos-car-rental.com/kos-car-rental-faq): 10 high-intent Q&A covering pricing, IDP, deposits, insurance void on gravel, Bodrum ferry, parking fines, off-hours pickup.
 - [About kos-car-rental.com](https://kos-car-rental.com/about): Editorial methodology: 11-operator scrape, Greek Gazette sourcing, affiliate disclosure, consumer protection links.
 

@@ -24,6 +24,8 @@ ROUTES = {
           "Which Kos beaches need a 4x4 vs compact? Cavo Paradiso, Agios Theologos, Camel Beach, Paradise Beach — road conditions and insurance liability."),
     "/ferry-to-kos": ("FerryGuide.tsx", "Kos Ferry Ports: Mastichari & Mandraki Car Rules",
           "Mastichari drop-off fees, Bodrum ferry prohibition, Kalymnos logistics, Kos Port Mandraki realities for rental cars."),
+    "/island-hopping-from-kos": ("IslandHopping.tsx", "Day Trips & Island Hopping from Kos by Car: 2026 Guide",
+          "Which Kos day trips suit a hire car and which need a ferry: paved drives to Asklepion, Zia, Antimachia and Kefalos, plus same-day hops to Kalymnos, Nisyros and Bodrum."),
     "/kos-car-rental-faq": ("FAQ.tsx", "Kos Car Rental FAQ: 10 Questions Answered",
           "Answers to the 10 most common Kos car rental questions: pricing, IDP, deposits, insurance, Bodrum ferry, parking fines."),
     "/about": ("About.tsx", "About kos-car-rental.com: Methodology & Sources",
@@ -32,6 +34,30 @@ ROUTES = {
           "Contact the Kos Car Rental editorial team. Questions about bookings, content corrections, or local information."),
     "/privacy": ("PrivacyPolicy.tsx", "Privacy Policy — Kos Car Rental",
           "Privacy Policy for kos-car-rental.com — what data we collect, cookies, affiliate tracking, and GDPR rights."),
+}
+
+# Per-route Article dates (default = site launch). New content pages set their own.
+DATES = {
+    "/island-hopping-from-kos": ("2026-06-02", "2026-06-02"),
+}
+DEFAULT_DATES = ("2026-04-22", "2026-04-22")
+
+# Per-route articleBody (>=200 chars plain text) — GEO compensation for head-only
+# prerender so no-JS AI crawlers see page body text inside Article JSON-LD (rule: articleBody mandatory).
+ARTICLE_BODY = {
+    "/island-hopping-from-kos": (
+        "A hire car is the right tool for inland Kos and the wrong tool for island hopping. "
+        "The Asklepion (about 3.4 km from Kos Town, free paved parking), the sunset villages of Zia and Asfendiou, "
+        "the 14th-century Antimachia Castle, the Byzantine acropolis of Paleo Pyli, and the hilltop village of Kefalos "
+        "are all reached on paved roads suitable for an economy car. Gravel approaches void rental insurance: the "
+        "Therma hot-springs descent, the roughly 5 km dirt road to Agios Theologos, the tracks to Camel Beach and "
+        "Cavo Paradiso, and the Mount Dikaios track above Zia. For neighbouring islands, travel as a foot passenger. "
+        "Kalymnos from Mastichari (30-45 minutes, EUR 8-10) and the Nisyros volcano from Kardamena (out about 09:30, "
+        "back about 15:30, around EUR 5 crater entry) work as same-day trips, while Symi and Patmos do not allow a "
+        "same-day return from Kos. Greek rental contracts void all insurance during ferry transport and ban "
+        "cross-border travel, so taking a car to Kalymnos needs written supplier permission and the Kos-Bodrum "
+        "crossing to Turkey is passenger-only with no rental-car option."
+    ),
 }
 
 
@@ -123,8 +149,8 @@ def main():
                 html = html.replace("</head>", f"    {replacement}\n  </head>", 1)
 
         # FAQPage schema injection (rule #136/176)
-        if slug == "/kos-car-rental-faq":
-            items = parse_faq_items(PAGES / "FAQ.tsx")
+        if slug in ("/kos-car-rental-faq", "/island-hopping-from-kos"):
+            items = parse_faq_items(PAGES / tsx_name)
             if items:
                 faqpage = {
                     "@context": "https://schema.org",
@@ -142,7 +168,8 @@ def main():
                 print(f"  [schema] FAQPage injected ({len(items)} Q&A)")
 
         # Article schema on guide pages (rule #112/176)
-        if slug in ("/driving-in-kos", "/kos-beaches-by-car", "/ferry-to-kos", "/kos-airport-car-rental", "/about"):
+        if slug in ("/driving-in-kos", "/kos-beaches-by-car", "/ferry-to-kos", "/kos-airport-car-rental", "/about", "/island-hopping-from-kos"):
+            pub, mod = DATES.get(slug, DEFAULT_DATES)
             article = {
                 "@context": "https://schema.org",
                 "@type": "Article",
@@ -156,12 +183,14 @@ def main():
                     "name": BRAND,
                     "logo": {"@type": "ImageObject", "url": f"{ORIGIN}/favicon-512.png"},
                 },
-                "datePublished": "2026-04-22",
-                "dateModified": "2026-04-22",
+                "datePublished": pub,
+                "dateModified": mod,
                 "inLanguage": "en",
             }
+            if slug in ARTICLE_BODY:
+                article["articleBody"] = ARTICLE_BODY[slug]
             html = inject_jsonld(html, article)
-            print(f"  [schema] Article injected {slug}")
+            print(f"  [schema] Article injected {slug}" + (" +articleBody" if slug in ARTICLE_BODY else ""))
 
         html_file.write_text(html, encoding="utf-8")
         print(f"  [patch] {slug} → title='{title}' ({len(title)} chars)")

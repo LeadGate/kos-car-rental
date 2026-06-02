@@ -6,6 +6,7 @@ const AirportPage = lazy(() => import("./pages/AirportPage"));
 const DrivingGuide = lazy(() => import("./pages/DrivingGuide"));
 const BeachGuide = lazy(() => import("./pages/BeachGuide"));
 const FerryGuide = lazy(() => import("./pages/FerryGuide"));
+const IslandHopping = lazy(() => import("./pages/IslandHopping"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/driving-in-kos" element={<DrivingGuide />} />
             <Route path="/kos-beaches-by-car" element={<BeachGuide />} />
             <Route path="/ferry-to-kos" element={<FerryGuide />} />
+            <Route path="/island-hopping-from-kos" element={<IslandHopping />} />
             <Route path="/kos-car-rental-faq" element={<FAQ />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

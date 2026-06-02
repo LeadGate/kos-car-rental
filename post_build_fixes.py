@@ -24,6 +24,7 @@ PAGE_HERO = {
     "DrivingGuide.tsx": "/7.webp",
     "BeachGuide.tsx": "/10.webp",
     "FerryGuide.tsx": "/13.webp",
+    "IslandHopping.tsx": "/12.webp",
     "FAQ.tsx": "/16.webp",
     "About.tsx": "/17.webp",
     "Contact.tsx": "/2.webp",
@@ -56,6 +57,11 @@ ROUTES = {
         "title": "Kos Ferry Ports: Mastichari & Mandraki Car Rules",
         "desc": "Mastichari drop-off fees, Bodrum ferry prohibition, Kalymnos logistics, Kos Port Mandraki realities for rental cars.",
         "hero_h1": "Ferry-Port Rentals: Mastichari, Bodrum & Kalymnos",
+    },
+    "/island-hopping-from-kos": {
+        "title": "Day Trips & Island Hopping from Kos by Car: 2026 Guide",
+        "desc": "Which Kos day trips suit a hire car and which need a ferry: paved drives to Asklepion, Zia, Antimachia and Kefalos, plus same-day hops to Kalymnos, Nisyros and Bodrum.",
+        "hero_h1": "Drive the Inland, Ferry the Islands: Planning Day Trips from Kos",
     },
     "/kos-car-rental-faq": {
         "title": "Kos Car Rental FAQ: 10 Questions Answered",
@@ -91,7 +97,8 @@ def transform_page(tsx_file: Path):
         (r for r, meta in ROUTES.items() if {
             "Index.tsx": "/", "AirportPage.tsx": "/kos-airport-car-rental",
             "DrivingGuide.tsx": "/driving-in-kos", "BeachGuide.tsx": "/kos-beaches-by-car",
-            "FerryGuide.tsx": "/ferry-to-kos", "FAQ.tsx": "/kos-car-rental-faq",
+            "FerryGuide.tsx": "/ferry-to-kos", "IslandHopping.tsx": "/island-hopping-from-kos",
+            "FAQ.tsx": "/kos-car-rental-faq",
             "About.tsx": "/about", "Contact.tsx": "/contact", "PrivacyPolicy.tsx": "/privacy",
         }.get(name) == r),
         None,
@@ -237,7 +244,7 @@ def transform_page(tsx_file: Path):
 # ------------------------------------------------------------------------
 # PASS 2 — inject <AffiliateWidget /> right after <HeroSection /> on content pages (rule #160/#151 line parser)
 # ------------------------------------------------------------------------
-CONTENT_PAGES_FOR_WIDGET = {"Index.tsx", "AirportPage.tsx", "DrivingGuide.tsx", "BeachGuide.tsx", "FerryGuide.tsx", "FAQ.tsx"}
+CONTENT_PAGES_FOR_WIDGET = {"Index.tsx", "AirportPage.tsx", "DrivingGuide.tsx", "BeachGuide.tsx", "FerryGuide.tsx", "IslandHopping.tsx", "FAQ.tsx"}
 
 def inject_widget(tsx_file: Path):
     if tsx_file.name not in CONTENT_PAGES_FOR_WIDGET:

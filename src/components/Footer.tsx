@@ -5,6 +5,7 @@ const footerLinks = [
   { label: "Driving Tips", path: "/driving-in-kos/" },
   { label: "Beaches", path: "/kos-beaches-by-car/" },
   { label: "Ferry", path: "/ferry-to-kos/" },
+  { label: "Day Trips", path: "/island-hopping-from-kos/" },
   { label: "FAQ", path: "/kos-car-rental-faq/" },
   { label: "About", path: "/about/" },
   { label: "Contact", path: "/contact/" },
