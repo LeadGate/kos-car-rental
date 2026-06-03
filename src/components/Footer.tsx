@@ -65,7 +65,7 @@ const Footer = () => (
         <p className="text-xs opacity-70">
           <strong>Affiliate disclosure:</strong> This site contains affiliate links to car rental partners. We may earn a commission when you book through these links at no extra cost to you. Partner relationships do not dictate which operators we recommend or warn against.
         </p>
-        <p className="text-xs opacity-70">Last updated: May 2026</p>
+        <p className="text-xs opacity-70">Last updated: June 2026</p>
         <p>&copy; {new Date().getFullYear()} kos-car-rental.com</p>
       </div>
     </div>
