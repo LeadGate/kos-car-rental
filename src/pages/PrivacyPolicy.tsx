@@ -11,12 +11,6 @@ const PrivacyPolicy = () => {
         description="Privacy policy for Kos Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://kos-car-rental.com/privacy"
         noindex
-        jsonLd={[{
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Privacy Policy | Kos Car Rental",
-          "url": "https://kos-car-rental.com/privacy"
-        }]}
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />

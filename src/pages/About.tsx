@@ -11,12 +11,6 @@ const About = () => {
       <SEOHead title="About kos-car-rental.com: Methodology & Sources"
         description="How we research Kos car rental: 11-operator competitor scrape + Government Gazette sources. Affiliate disclosure, consumer protection links."
         canonical="https://kos-car-rental.com/about"
-        jsonLd={[{
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "About Kos Car Rental",
-          "url": "https://kos-car-rental.com/about"
-        }]}
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

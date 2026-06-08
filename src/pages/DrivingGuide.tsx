@@ -58,7 +58,6 @@ const DrivingGuide = () => {
       <SEOHead title="Driving in Kos: 2026 Rules, Fines & IDP Law"
         description="Driving in Kos gives visitors freedom to reach Kos Town, Kefalos, Tigaki, Marmari, and Zia without relying on schedules, and the island follows the Greek"
         canonical="https://kos-car-rental.com/driving-in-kos"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />

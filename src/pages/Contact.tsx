@@ -40,7 +40,6 @@ const Contact = () => {
       <SEOHead title="Contact Kos Car Rental"
         description="Have a question about car rental in Kos? Contact Kos Car Rental for assistance."
         canonical="https://kos-car-rental.com/contact"
-        jsonLd={[{ "@context": "https://schema.org", "@type": "WebPage", "name": "Contact Kos Car Rental", "url": "https://kos-car-rental.com/contact" }]}
       />
 
       <Section>
