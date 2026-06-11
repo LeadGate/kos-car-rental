@@ -3,3 +3,18 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/gsv/*
+  Content-Type: text/plain; charset=utf-8
+
+/google971edb8bdbc52a3f.html
+  Content-Type: text/plain; charset=utf-8
+
+/googlee735a31f291f4ef1.html
+  Content-Type: text/plain; charset=utf-8
+
+/google1d9f2cbd158ea1b7.html
+  Content-Type: text/plain; charset=utf-8
+
+/googleb7d15e9af4471b00.html
+  Content-Type: text/plain; charset=utf-8
