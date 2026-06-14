@@ -58,7 +58,7 @@ const AirportPage = () => {
     <Layout>
       <SEOHead title="Kos Airport Car Rental (KGS) Pickup Guide"
         description="Landing at Kos International Airport (KGS), also called Ippokratis (Hippocrates), usually means a fast pickup if your booking matches the flight schedule"
-        canonical="https://kos-car-rental.com/kos-airport-car-rental"
+        canonical="https://kos-car-rental.com/kos-airport-car-rental/"
       />
 
       <Breadcrumbs items={[{ label: "Airport" }]} />

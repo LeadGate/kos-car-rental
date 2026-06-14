@@ -118,7 +118,7 @@ const FAQ = () => {
   return (
     <Layout>
       <SEOHead title="Kos Car Rental FAQ: 10 Questions Answered" description="Answers to the 10 most common Kos car rental questions: pricing, IDP, deposits, insurance, Bodrum ferry, parking fines."
-        canonical="https://kos-car-rental.com/kos-car-rental-faq"
+        canonical="https://kos-car-rental.com/kos-car-rental-faq/"
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />

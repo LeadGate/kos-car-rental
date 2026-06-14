@@ -57,7 +57,7 @@ const FerryGuide = () => {
     <Layout>
       <SEOHead title="Kos Ferry Ports: Mastichari & Mandraki Car Rules"
         description="Mastichari drop-off fees, Bodrum ferry prohibition, Kalymnos logistics, Kos Port Mandraki realities for rental cars."
-        canonical="https://kos-car-rental.com/ferry-to-kos"
+        canonical="https://kos-car-rental.com/ferry-to-kos/"
       />
 
       <Breadcrumbs items={[{ label: "Ferry" }]} />
