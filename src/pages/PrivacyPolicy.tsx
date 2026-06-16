@@ -10,7 +10,6 @@ const PrivacyPolicy = () => {
       <SEOHead title="Privacy Policy — Kos Car Rental"
         description="Privacy policy for Kos Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://kos-car-rental.com/privacy/"
-        noindex
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />
