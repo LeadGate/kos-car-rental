@@ -46,7 +46,7 @@ const DrivingGuide = () => {
       "url": "https://kos-car-rental.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://kos-car-rental.com/favicon-512x512.png"
+        "url": "https://kos-car-rental.com/favicon-512.png"
       }
     },
     "mainEntityOfPage": "https://kos-car-rental.com/driving-in-kos",
