@@ -236,7 +236,7 @@ const AirportPage = () => {
       </Section>
 
       <div className="flex justify-center pb-12">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+        <a href="/#compare-cars" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>
   );
