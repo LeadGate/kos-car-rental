@@ -68,7 +68,7 @@ const FerryGuide = () => {
         image="/13.webp"
         imageAlt="Mastichari fishing harbor at dawn with traditional caiques and Kalymnos visible across the strait"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
       <AffiliateWidget />
 

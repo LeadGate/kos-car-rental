@@ -40,10 +40,10 @@ const Index = () => {
         image="/1.webp"
         imageAlt="Car rental in Kos"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
 
-      <AffiliateWidget id="compare" />
+      <AffiliateWidget />
 
       <Section
         icon={<DollarSign className="w-6 h-6" />}

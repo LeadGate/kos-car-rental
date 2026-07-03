@@ -64,7 +64,7 @@ const IslandHopping = () => {
         image="/12.webp"
         imageAlt="Coastal road on Kos with the Aegean and a neighbouring Dodecanese island on the horizon"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
       <AffiliateWidget />
 

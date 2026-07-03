@@ -129,7 +129,7 @@ const FAQ = () => {
         image="/16.webp"
         imageAlt="Rental car keys and contract on a desk with a view of a Greek fishing village"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
       <AffiliateWidget />
 

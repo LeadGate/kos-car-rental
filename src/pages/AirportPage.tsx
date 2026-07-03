@@ -69,7 +69,7 @@ const AirportPage = () => {
         image="/3.webp"
         imageAlt="Car rental in Kos"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
       <AffiliateWidget />
 
