@@ -55,7 +55,7 @@ const DrivingGuide = () => {
 
   return (
     <Layout>
-      <SEOHead title="Driving in Kos: 2026 Rules, Fines & IDP Law"
+      <SEOHead title="Driving in Kos: 2026 Fines, KOK Rules & No-IDP Countries"
         description="Driving in Kos gives visitors freedom to reach Kos Town, Kefalos, Tigaki, Marmari, and Zia without relying on schedules, and the island follows the Greek"
         canonical="https://kos-car-rental.com/driving-in-kos/"
       />

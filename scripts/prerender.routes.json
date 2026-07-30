@@ -40,7 +40,7 @@
   },
   "/island-hopping-from-kos/": {
     "article": {
-      "headline": "Kos Island Hopping: Drive vs Ferry Day Trips",
+      "headline": "Day Trips & Island Hopping from Kos by Car: 2026 Guide",
       "description": "A hire car reaches the Asklepion, Zia, Antimachia Castle and Paleo Pyli on paved roads, but Kalymnos, Nisyros and Bodrum require leaving the car at the port.",
       "image": "https://kos-car-rental.com/og-image.png",
       "wordCount": 2697,
@@ -119,5 +119,14 @@
         "a": "You are usually responsible for the full repair cost if you damage a rental car on an unpaved road in Kos, because most contracts void CDW, SCDW, and FDW on non-asphalt surfaces. Autoway Kos states that coverage applies only on asphalt roads, and many local agencies including Kosmos, Eco Rentals, and Rentacar-Kos use the same rule to exclude undercarriage, tyre, and suspension damage. If the contract includes zero excess for paved-road incidents, that promise does not normally survive gravel-road use, off-road parking, or beach-track driving. Kos drivers heading to remote shores such as Limnionas, Agios Stefanos, Exotic Beach, Lagada Beach, or the rough track above Cavo Paradiso should choose a vehicle that matches the route and keep the signed terms in the glovebox. The safest way to compare coverage is to check the exact insurance wording before leaving Kos International Airport, the Kos Town office, or the shuttle bus stop."
       }
     ]
+  },
+  "/about/": {
+    "title": "About kos-car-rental.com: Methodology & Sources"
+  },
+  "/contact/": {
+    "title": "Contact Kos Car Rental"
+  },
+  "/privacy/": {
+    "title": "Privacy Policy — Kos Car Rental"
   }
 }

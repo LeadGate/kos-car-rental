@@ -56,7 +56,7 @@ const BeachGuide = () => {
 
   return (
     <Layout>
-      <SEOHead title="Kos Beaches by Car: 10-Beach Access Matrix"
+      <SEOHead title="Kos Beaches by Car: 100 km Coastline Liability Matrix"
         description="Kos has over 100 kilometres of coastline, but beach access changes sharply by area: the north coast is mostly paved, the south coast mixes asphalt with"
         canonical="https://kos-car-rental.com/kos-beaches-by-car/"
       />
