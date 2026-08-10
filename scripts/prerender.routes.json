@@ -8,7 +8,8 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Kos Car Rental: Honest Prices, No Airport Surprises",
+      "@id": "https://kos-car-rental.com/#organization",
+      "name": "Kos Car Rental",
       "url": "https://kos-car-rental.com/",
       "logo": {
         "@type": "ImageObject",
