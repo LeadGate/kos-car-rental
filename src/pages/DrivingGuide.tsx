@@ -36,7 +36,7 @@ const DrivingGuide = () => {
     "@type": "Article",
         "author": {"@type": "Organization", "name": "Kos Car Rental", "url": "https://kos-car-rental.com"},
     "headline": "Driving in Kos: Your 2026 Guide to Greek Road Rules & Fines",
-    "description": "Driving in Kos gives visitors freedom to reach Kos Town, Kefalos, Tigaki, Marmari, and Zia without relying on schedules, and the island follows the Greek",
+    "description": "Kos driving rules: UK, US, EU and Australian licences are valid without an IDP under Law 4850/2021 Art. 25 §3; fines follow the 2026 Greek Road Traffic Code.",
     "url": "https://kos-car-rental.com/driving-in-kos",
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
@@ -56,7 +56,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead title="Driving in Kos: 2026 Fines, KOK Rules & No-IDP Countries"
-        description="Driving in Kos gives visitors freedom to reach Kos Town, Kefalos, Tigaki, Marmari, and Zia without relying on schedules, and the island follows the Greek"
+        description="Kos driving rules: UK, US, EU and Australian licences are valid without an IDP under Law 4850/2021 Art. 25 §3; fines follow the 2026 Greek Road Traffic Code."
         canonical="https://kos-car-rental.com/driving-in-kos/"
       />
 

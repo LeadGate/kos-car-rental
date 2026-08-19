@@ -37,7 +37,7 @@ const BeachGuide = () => {
     "@type": "Article",
         "author": {"@type": "Organization", "name": "Kos Car Rental", "url": "https://kos-car-rental.com"},
     "headline": "Kos Beaches by Car: A Practical Guide to Road Access & Insurance Risks",
-    "description": "Kos has over 100 kilometres of coastline, but beach access changes sharply by area: the north coast is mostly paved, the south coast mixes asphalt with",
+    "description": "Kos has over 100 km of coastline: the north is mostly paved, the south mixes asphalt with steep descents, and Kefalos carries the highest off-road risk.",
     "url": "https://kos-car-rental.com/kos-beaches-by-car",
     "datePublished": "2026-04-22",
     "dateModified": "2026-04-22",
@@ -57,7 +57,7 @@ const BeachGuide = () => {
   return (
     <Layout>
       <SEOHead title="Kos Beaches by Car: 100 km Coastline Liability Matrix"
-        description="Kos has over 100 kilometres of coastline, but beach access changes sharply by area: the north coast is mostly paved, the south coast mixes asphalt with"
+        description="Kos has over 100 km of coastline: the north is mostly paved, the south mixes asphalt with steep descents, and Kefalos carries the highest off-road risk."
         canonical="https://kos-car-rental.com/kos-beaches-by-car/"
       />
 
