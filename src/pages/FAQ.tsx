@@ -117,7 +117,7 @@ const FAQ = () => {
 
   return (
     <Layout>
-      <SEOHead title="Kos Car Rental FAQ: Prices, IDP, Deposits & After-Hours" description="Answers to the 10 most common Kos car rental questions: pricing, IDP, deposits, insurance, Bodrum ferry, parking fines."
+      <SEOHead title="Kos Car Rental FAQ: Prices, IDP, Deposits & After-Hours" description="Straight answers on pricing, IDP rules, deposits, CDW/FDW insurance on gravel, the Bodrum ferry restriction, parking fines, and after-hours pickup at KGS."
         canonical="https://kos-car-rental.com/kos-car-rental-faq/"
       />
 
