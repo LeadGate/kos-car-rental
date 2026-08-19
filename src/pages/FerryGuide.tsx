@@ -56,7 +56,7 @@ const FerryGuide = () => {
   return (
     <Layout>
       <SEOHead title="Ferry to Kos: Mastichari Port, Bodrum Rules & Rental Cars"
-        description="Mastichari drop-off fees, Bodrum ferry prohibition, Kalymnos logistics, Kos Port Mandraki realities for rental cars."
+        description="Mastichari Port serves Kalymnos and Pserimos ferries; rental cars cannot cross to Bodrum, and early-morning handovers carry a €25 out-of-hours surcharge."
         canonical="https://kos-car-rental.com/ferry-to-kos/"
       />
 

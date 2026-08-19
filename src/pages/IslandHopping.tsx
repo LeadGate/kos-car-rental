@@ -52,7 +52,7 @@ const IslandHopping = () => {
     <Layout>
       <SEOHead
         title="Day Trips & Island Hopping from Kos by Car: 2026 Guide"
-        description="Which Kos day trips suit a hire car and which need a ferry: paved drives to Asklepion, Zia, Antimachia and Kefalos, plus same-day hops to Kalymnos, Nisyros and Bodrum."
+        description="A hire car reaches the Asklepion, Zia, Antimachia Castle and Paleo Pyli on paved roads, but Kalymnos, Nisyros and Bodrum require leaving the car at the port."
         canonical="https://kos-car-rental.com/island-hopping-from-kos/"
       />
 
