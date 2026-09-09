@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 
 interface FAQSectionProps {
   items: Array<{
@@ -26,23 +20,19 @@ interface FAQSectionProps {
  * residue.
  */
 const FAQSection: React.FC<FAQSectionProps> = ({ items }) => (
-  <Accordion type="single" collapsible className="w-full">
+  <div className="w-full space-y-6">
     {items.map((item, i) => (
-      <AccordionItem key={i} value={`faq-${i}`}>
-        <AccordionTrigger className="text-left font-semibold">
-          {item.question}
-        </AccordionTrigger>
-        <AccordionContent className="text-foreground/80">
-          <div
+      <div key={i}>
+        <h3 className="text-left font-semibold mb-2">{item.question}</h3>
+        <div className="text-foreground/80"><div
             className="prose prose-sm max-w-none [&_strong]:text-foreground leading-relaxed"
             dangerouslySetInnerHTML={{
               __html: item.answer.replace(/\s*---\s*$/, "").trim(),
             }}
-          />
-        </AccordionContent>
-      </AccordionItem>
+          /></div>
+      </div>
     ))}
-  </Accordion>
+  </div>
 );
 
 export default FAQSection;
