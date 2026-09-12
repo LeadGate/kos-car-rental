@@ -1,0 +1,7 @@
+{
+ "_contract": "dateModified правит ЧЕЛОВЕК при правке содержимого главной, и той же датой правит lastmod главной в public/sitemap.xml. Дата сборки сюда не подставляется.",
+ "_source": "видимый текст",
+ "datePublished": "2026-04-22",
+ "dateModified": "2026-05-08",
+ "inLanguage": "en"
+}
