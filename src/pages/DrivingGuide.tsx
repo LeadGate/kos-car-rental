@@ -39,7 +39,7 @@ const DrivingGuide = () => {
     "description": "Kos driving rules: UK, US, EU and Australian licences are valid without an IDP under Law 4850/2021 Art. 25 §3; fines follow the 2026 Greek Road Traffic Code.",
     "url": "https://kos-car-rental.com/driving-in-kos",
     "datePublished": "2026-04-22",
-    "dateModified": "2026-04-22",
+    "dateModified": "2026-09-14",
     "publisher": {
       "@type": "Organization",
       "name": "Kos Car Rental",
@@ -86,7 +86,7 @@ const DrivingGuide = () => {
         title="2026 Speed Limits and AI Cameras in Kos and the Dodecanese"
         alt
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">The 2026 KOK reduced the default urban limit to 30 km/h in towns and villages, while rural roads remain 90 km/h and motorway limits remain 130 km/h, although Kos has no motorway network. The Greek Ministry of Digital Governance has been rolling out AI-powered traffic cameras across the South Aegean, and enforcement is relevant on routes around Kos Town, Antimachia, and the airport road to KGS.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Under Law 5209/2025, the default urban limit is 30 km/h in towns and villages (50 km/h applies only on multi-lane or centrally divided urban roads), while roads outside built-up areas carry a 90 km/h limit for cars. Kos has no motorways or expressways, so the higher 110/130 km/h categories in the statute do not apply anywhere on the island — posted signs still override these defaults. The Greek Ministry of Digital Governance has been rolling out AI-powered traffic cameras across the South Aegean, and enforcement is relevant on routes around Kos Town, Antimachia, and the airport road to KGS.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">The strongest practical examples for island drivers are the main corridor between Kos Town and Kos Airport, the approach to Kefalos, and other higher-speed sections where seatbelts and phone use can also be monitored. In many cases, the fine is sent to the rental company first, and agencies such as Eco Rentals, Ilias Rentals, or Exer may then charge an administrative fee of €20-€30 to the card on file.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> On Kos, treat every built-up road as a 30 km/h zone unless signs clearly show otherwise, because camera enforcement is designed around the KOK update.  💡 <strong>Tip:</strong> If your booking with Avis, Hertz, or Sixt includes GPS tracking or telematics, driving behaviour can also be visible to the fleet team after a violation notice.</p></InfoBox>
       </Section>
@@ -97,8 +97,8 @@ const DrivingGuide = () => {
         icon={<Car className="w-6 h-6" />}
         title="Traffic Fines Schedule in Greece for 2026"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">Greek fines are fixed by offence category, and the KOK links many violations to temporary licence suspension, which is why the exact amount matters for visitors driving between Mandraki, Lambi, Psalidi, and Marmari. The table below summarises the 2026 penalties that are most relevant to rental-car users in Kos and the wider Dodecanese.</p>
-          <DataTable headers={["Violation", "Fine (EUR)", "Additional Penalty"]} rows={[["Speeding up to 20 km/h over the limit", "\u20ac40", "-"], ["Speeding 20-30 km/h over the limit", "\u20ac50", "-"], ["Speeding more than 30 km/h over the limit", "\u20ac175", "60-day licence suspension"], ["Driving without a seatbelt", "\u20ac350", "30-day licence suspension"], ["Using a mobile phone without hands-free kit", "\u20ac350", "30-day licence suspension"], ["Parking on a yellow line", "\u20ac80", "-"], ["Running a red light or STOP sign", "\u20ac700", "60-day licence suspension"], ["Drunk driving, BAC-dependent", "\u20ac200-\u20ac1,200", "2-6 month licence suspension"]]} />
+          <p className="text-gray-700 mb-4 leading-relaxed">Greek fines are fixed by offence category under Law 5209/2025, and several violations carry a temporary licence (and sometimes vehicle registration) withdrawal on top of the fine, which is why the exact amount matters for visitors driving between Mandraki, Lambi, Psalidi, and Marmari. The table below summarises the penalties that are most relevant to rental-car users in Kos and the wider Dodecanese.</p>
+          <DataTable headers={["Violation", "Fine (EUR)", "Additional Penalty"]} rows={[["Speeding up to 20 km/h over the limit", "\u20ac150", "-"], ["Speeding 20-30 km/h over the limit", "\u20ac150", "20-day licence withdrawal"], ["Speeding 30-50 km/h over the limit", "\u20ac350", "30-day licence & registration withdrawal"], ["Speeding more than 50 km/h over the limit", "\u20ac700", "60-day on-the-spot licence withdrawal"], ["Driving without a seatbelt", "\u20ac350", "30-day licence & registration withdrawal"], ["Using a mobile phone without hands-free kit", "\u20ac350", "30-day licence & registration withdrawal"], ["Parking on a yellow line", "\u20ac80", "-"], ["Running a red light", "\u20ac700", "60-day on-the-spot licence withdrawal"], ["Drunk driving, BAC-dependent (3 tiers)", "\u20ac350-\u20ac1,200", "30-180 day licence & registration withdrawal; imprisonment above 1.10 g/l"]]} />
           <p className="text-gray-700 mb-4 leading-relaxed">The table matters for rental customers because companies such as Goldcar, Alma, and Europcar may receive the notice first and then pass the charge to the renter with an added admin fee. The KOK fine structure also makes a strong case for choosing full coverage or FDW where available, because a separate traffic fine does not remove the renter’s duty to pay the authority.</p>
       </Section>
 

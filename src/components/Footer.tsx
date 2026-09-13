@@ -54,7 +54,7 @@ const Footer = () => (
         <div>
           <h4 className="font-bold text-foreground mb-3">Editorial</h4>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            Legal references: Greek Law 4850/2021 (FEK A 208, 5 Nov 2021). Traffic rules: 2026 KOK update.
+            Legal references: Greek Law 4850/2021 (FEK A 208, 5 Nov 2021). Traffic rules: Law 5209/2025 (FEK 100/Α, 13 Jun 2025).
           </p>
           <p className="mt-3 text-sm text-muted-foreground">
             Tourist Police: <strong>1571</strong> (24/7)
