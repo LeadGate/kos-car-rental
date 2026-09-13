@@ -332,7 +332,7 @@ The law is published in the Government Gazette and reflected in Greek tax-law re
 
 ## 2026 Speed Limits and AI Cameras in Kos and the Dodecanese
 
-Under Law 5209/2025, the default urban limit is 30 km/h in towns and villages (50 km/h applies only on multi-lane or centrally divided urban roads), while roads outside built-up areas carry a 90 km/h limit for cars. Kos has no motorways or expressways, so the higher 110/130 km/h categories in the statute do not apply anywhere on the island — posted signs still override these defaults. The Greek Ministry of Digital Governance has been rolling out AI-powered traffic cameras across the South Aegean, and enforcement is relevant on routes around Kos Town, Antimachia, and the airport road to KGS.
+Under Law 5209/2025, the default urban limit is 30 km/h in towns and villages (50 km/h applies only on multi-lane or centrally divided urban roads), while roads outside built-up areas carry a 90 km/h limit for cars. Kos has no motorway network, so the 130 km/h motorway limit does not apply on the island — posted signs still override these defaults. The Greek Ministry of Digital Governance has been rolling out AI-powered traffic cameras across the South Aegean, and enforcement is relevant on routes around Kos Town, Antimachia, and the airport road to KGS.
 
 The strongest practical examples for island drivers are the main corridor between Kos Town and Kos Airport, the approach to Kefalos, and other higher-speed sections where seatbelts and phone use can also be monitored. In many cases, the fine is sent to the rental company first, and agencies such as Eco Rentals, Ilias Rentals, or Exer may then charge an administrative fee of €20-€30 to the card on file.
 
@@ -352,7 +352,7 @@ Greek fines are fixed by offence category under Law 5209/2025, and several viola
 | Speeding more than 50 km/h over the limit | €700 | 60-day on-the-spot licence withdrawal |
 | Driving without a seatbelt | €350 | 30-day licence & registration withdrawal |
 | Using a mobile phone without hands-free kit | €350 | 30-day licence & registration withdrawal |
-| Parking on a yellow line | €80 | - |
+| Parking on a yellow line | €30 | 10-day licence withdrawal |
 | Running a red light | €700 | 60-day on-the-spot licence withdrawal |
 | Drunk driving, BAC-dependent (3 tiers) | €350-€1,200 | 30-180 day licence & registration withdrawal; imprisonment above 1.10 g/l |
 
@@ -368,7 +368,7 @@ Police breathalyser checks are common on weekend nights, especially on the roads
 
 ## Kos Town Parking Zones and the Mandraki Harbour Rules
 
-Kos Town uses colour-coded parking zones, and the system is the simplest way to avoid an €80 fine while visiting the port, shopping streets, or the beachfront near Lambi and Psalidi. Blue lines mean paid parking, white lines mean free spaces, and yellow lines mean no parking because they are reserved for loading, taxis, or emergency access.
+Kos Town uses colour-coded parking zones, and the system is the simplest way to avoid a €30 fine plus a 10-day licence withdrawal while visiting the port, shopping streets, or the beachfront near Lambi and Psalidi. Blue lines mean paid parking, white lines mean free spaces, and yellow lines mean no parking because they are reserved for loading, taxis, or emergency access.
 
 Mandraki Harbour and the fenced Kos Port area are especially sensitive, because the Port Authority can fine or tow cars parked without a valid ferry departure. A parking ticket is usually a pink slip under the wiper, and the official payment route is the Municipality of Kos cashier’s office or any Hellenic Post (ELTA) branch within 15 days.
 
@@ -376,7 +376,7 @@ Mandraki Harbour and the fenced Kos Port area are especially sensitive, because 
 | :--- | :--- | :--- |
 | Blue lines | Paid parking | €1-€2 per hour |
 | White lines | Free parking | Usually limited and quickly occupied |
-| Yellow lines | No parking | €80 fine |
+| Yellow lines | No parking | €30 fine + 10-day licence withdrawal |
 | Port fenced area | No unauthorised parking | Fine or towing |
 
 For drivers visiting Kos Town from Agios Stefanos, Alikes salt lake, or the airport road, a short walk from legal parking is usually cheaper than risking a ticket near the waterfront. If you are collecting a rental from AutoBank or IdealRentals, ask whether the car includes a local parking guide or app recommendation for central Kos.

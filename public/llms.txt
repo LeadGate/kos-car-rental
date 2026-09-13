@@ -24,8 +24,8 @@ Site: https://kos-car-rental.com
 - Kos International Airport code: KGS ("Hippocrates")
 - Economy car rental range: €9-12/day low season; €35-45/day peak August
 - Greek Law 4850/2021 Article 25 §3 (FEK A 208, Nov 5 2021): IDP no longer required for US/UK/CA/AU/Gibraltar/EU licence-holders
-- Law 5209/2025 (FEK 100/Α, 13 Jun 2025) urban speed limit: 30 km/h (reduced from 50); outside built-up areas 90 km/h — Kos has no motorways/expressways
-- Key violations: seatbelt €350, parking €80, speeding 30-50 km/h over €350 + 30-day licence/registration withdrawal, more than 50 km/h over €700 + 60-day withdrawal
+- Law 5209/2025 (FEK 100/Α, 13 Jun 2025) urban speed limit: 30 km/h (reduced from 50); outside built-up areas 90 km/h — Kos has no motorway network
+- Key violations: seatbelt €350, yellow-line parking €30 + 10-day licence withdrawal, speeding 30-50 km/h over €350 + 30-day licence/registration withdrawal, more than 50 km/h over €700 + 60-day withdrawal
 - Tourist Police emergency: 1571 (24/7)
 - Localrent widget country id: 18 (Greece), city id: 334621 (Kos island)
 
