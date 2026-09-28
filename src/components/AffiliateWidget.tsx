@@ -9,10 +9,11 @@ import { Search } from "lucide-react";
 //   environments that block tpembd.com
 // - 8s descendant-count failure detector (widget renders via <div>+<a> only,
 //   so iframe/input/button/form selectors do NOT work)
-const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.kos-car-rental&country=18&city=334621&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+// Direct Localrent partner program #18201 (2026-09-27), replacing the TravelPayouts tpembd.com embed.
+const WIDGET_SRC = "https://static.localrent.com/widget/v3/app.js";
+const WIDGET_DATA: Record<string, string> = { mrc: "true", affiliate: "18201", apikey: "robcross849_gmail_com", apisign: "b98376a9fcb7e1e80ecc8968be00e092", country: "18", city: "334621", border: "false", lang: "en", background: "transparent", logo: "false", header: "false", marker: "kos-car-rental" };
 
-const FALLBACK_URL = "https://www.localrent.com/en/greece/kos/?marker=713621.kos";
+const FALLBACK_URL = "https://www.localrent.com/en/greece/kos/?marker=kos&r=18201";
 const FALLBACK_LABEL = "Or browse all Kos rentals on Localrent →";
 
 const AffiliateWidget = () => {
@@ -30,6 +31,7 @@ const AffiliateWidget = () => {
       const script = document.createElement("script");
       script.async = true;
       script.src = WIDGET_SRC;
+      Object.assign(script.dataset, WIDGET_DATA);
       script.charset = "utf-8";
       script.onerror = () => setScriptFailed(true);
       containerRef.current.appendChild(script);
