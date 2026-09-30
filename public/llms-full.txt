@@ -297,7 +297,7 @@ When comparing **Kos airport car rental** prices, the cheapest headline rate is 
 * **Geo Rent A Car**
   Another local provider with airport-oriented pickup flows, useful for travelers who prioritize local support and quick handover.
 
-* **Localrent and Booking**
+* **Localrent**
   This aggregator is useful for comparing multiple suppliers in one search, but the final counter rules still belong to the rental company named on the voucher.
 
 * **Sixt, Hertz, Avis, Europcar, Enterprise, Thrifty, Firefly, Goldcar, and Alma**
