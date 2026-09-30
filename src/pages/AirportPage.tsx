@@ -211,7 +211,7 @@ const AirportPage = () => {
         title="Rental Companies Commonly Booked for Kos Airport Pickup"
         alt
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">When comparing <strong>Kos airport car rental</strong> prices, the cheapest headline rate is not always the lowest total cost once insurance, deposit, and pickup method are included. On KGS pages, the main comparison should be between local specialists like <strong>Autoway Kos</strong>, <strong>Costas Car Rental</strong>, and <strong>Geo Rent A Car</strong>, and broader marketplace options such as <strong>Localrent</strong>, <strong>Kayak</strong>, and <strong>Booking</strong> that aggregate offers from multiple suppliers.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">When comparing <strong>Kos airport car rental</strong> prices, the cheapest headline rate is not always the lowest total cost once insurance, deposit, and pickup method are included. On KGS pages, the main comparison should be between local specialists like <strong>Autoway Kos</strong>, <strong>Costas Car Rental</strong>, and <strong>Geo Rent A Car</strong>, and broader marketplace options such as <strong>Localrent</strong> that aggregate offers from multiple suppliers.</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li><strong>Autoway Kos</strong></li>
           </ul>
@@ -225,9 +225,9 @@ const AirportPage = () => {
           </ul>
           <p className="text-gray-700 mb-4 leading-relaxed">Another local provider with airport-oriented pickup flows, useful for travelers who prioritize local support and quick handover.</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
-            <li><strong>Localrent, Kayak, and Booking</strong></li>
+            <li><strong>Localrent</strong></li>
           </ul>
-          <p className="text-gray-700 mb-4 leading-relaxed">These aggregators are useful for comparing multiple suppliers in one search, but the final counter rules still belong to the rental company named on the voucher.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">This aggregator is useful for comparing multiple suppliers in one search, but the final counter rules still belong to the rental company named on the voucher.</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li><strong>Sixt, Hertz, Avis, Europcar, Enterprise, Thrifty, Firefly, Goldcar, and Alma</strong></li>
           </ul>
