@@ -28,7 +28,7 @@ const About = () => {
 
         <h2 className="text-2xl font-bold mt-8 mb-3">How We Research</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          In April 2026 we scraped and cross-checked eleven Kos-based rental operators — kingrentacar.gr, koscarhire.com, autowaykos.gr, kosmos-kos.com, georentacar.com, autobank-kos.com, trust-kos.com, costascars.com, rentacar-kos.gr, ecorentals-kos.gr, and the greece-moments.com editorial coverage. Pricing was cross-referenced with aggregator stubs (DiscoverCars, Kayak, Booking) to catch the gap between the headline "from €7/day" and the real counter price after insurance, age surcharges, and deposit requirements.
+          In April 2026 we scraped and cross-checked eleven Kos-based rental operators — kingrentacar.gr, koscarhire.com, autowaykos.gr, kosmos-kos.com, georentacar.com, autobank-kos.com, trust-kos.com, costascars.com, rentacar-kos.gr, ecorentals-kos.gr, and the greece-moments.com editorial coverage. Pricing was cross-referenced with aggregator stubs (Kayak, Booking) to catch the gap between the headline "from €7/day" and the real counter price after insurance, age surcharges, and deposit requirements.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
           Legal references are drawn directly from the Greek Government Gazette (ΦΕΚ) and the Hellenic Ministry of Infrastructure. The most-cited anchors on this site are Greek Law 4850/2021 Article 25 §3 (FEK A 208, 5 Nov 2021) on the IDP exemption, and Law 5209/2025 (FEK 100/Α, 13 Jun 2025), the Road Traffic Code update that reduced the urban speed limit to 30 km/h and rolled out AI-enforced traffic cameras. Full text of Law 4850/2021 is public at <a href="https://www.taxheaven.gr/law/4850/2021" className="text-primary underline hover:text-accent" target="_blank" rel="noopener">taxheaven.gr</a>.
@@ -38,7 +38,7 @@ const About = () => {
         <DataTable
           headers={["Topic", "Source", "Last verified"]}
           rows={[
-            ["Pricing ranges", "11 local operators + aggregators (DiscoverCars, Kayak, Booking)", "April 2026"],
+            ["Pricing ranges", "11 local operators + aggregators (Kayak, Booking)", "April 2026"],
             ["Insurance terms", "Published FAQs of Autoway Kos, Costas Car Rental, Eco Rentals, Geo Rent A Car", "April 2026"],
             ["Traffic law + fines", "Greek Government Gazette (FEK 100/Α, 13 Jun 2025), Law 5209/2025, Hellenic Ministry of Transport", "September 2026"],
             ["Airport logistics", "Fraport Greece (kgs-airport.gr), Hellenic Tourist Police", "April 2026"],

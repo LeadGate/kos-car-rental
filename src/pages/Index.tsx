@@ -80,7 +80,7 @@ const Index = () => {
         icon={<Car className="w-6 h-6" />}
         title="The Three Hidden Fees Every Kos Tourist Pays"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">Kos rental contracts often include extra charges that are not obvious on the first quote, especially when booking through aggregators such as DiscoverCars, Booking, or Kayak. The key is to match the headline rate with the actual contract terms from the local supplier, whether that supplier is Autoway Kos, Kosmos, AutoBank, or another island operator.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Kos rental contracts often include extra charges that are not obvious on the first quote, especially when booking through aggregators such as Localrent, Booking, or Kayak. The key is to match the headline rate with the actual contract terms from the local supplier, whether that supplier is Autoway Kos, Kosmos, AutoBank, or another island operator.</p>
           <h3 className="text-xl font-bold mt-6 mb-3">1. Out-of-Hours Surcharge: €20-€25</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">Most Kos rental desks close around 21:00, and pickups after that time often trigger a flat late-arrival fee of €20-€25. Autoway Kos, for example, lists a €25 after-hours pickup charge, which is common at KGS and in Kos Town. A late flight into Kos International Airport can therefore turn a cheap booking into a more expensive one unless the arrival time is matched to the desk schedule.</p>
           <h3 className="text-xl font-bold mt-6 mb-3">2. Young and Senior Driver Surcharge: €9-€10 per day</h3>
