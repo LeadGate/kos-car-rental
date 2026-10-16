@@ -37,7 +37,12 @@ const AffiliateWidget = () => {
       containerRef.current.appendChild(script);
       window.setTimeout(() => {
         if (!containerRef.current) return;
-        if (containerRef.current.querySelectorAll("*").length < 6) {
+        // The Localrent widget renders inside the open shadow root of <mrc-widget>;
+        // querySelectorAll("*") does not enter it, so count shadow nodes too
+        // (memory feedback_localrent_widget_shadow_dom_false_fallback_2026_10_07).
+        const all = Array.from(containerRef.current.querySelectorAll("*"));
+        const nodes = all.length + all.reduce((n, el) => n + (el.shadowRoot ? el.shadowRoot.querySelectorAll("*").length : 0), 0);
+        if (nodes < 6) {
           setScriptFailed(true);
         }
       }, 8000);
